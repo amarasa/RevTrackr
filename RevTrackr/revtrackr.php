@@ -3,7 +3,7 @@
 /**
  * Plugin Name: RevTrackr
  * Description: A plugin to updates from a Log Markdown file
- * Version: 1.0
+ * Version: 1.1
  * Author: Angelo Marasa
  */
 
