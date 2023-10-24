@@ -36,7 +36,7 @@ function revtrackr_enqueue_admin_styles($hook)
 function revtrackr_admin_page()
 {
     echo '<h1>RevTrackr Updates Log</h1>';
-    $md_file_path = plugin_dir_path(__FILE__) . 'updates/Logs.MD'; // Path to Logs.MD within the plugin directory
+    $md_file_path = plugin_dir_path(__FILE__) . 'updates/Logs.md'; // Path to Logs.MD within the plugin directory
 
     if (file_exists($md_file_path)) {
         $md_content = file_get_contents($md_file_path);
@@ -67,7 +67,7 @@ add_action('wp_dashboard_setup', 'revtrackr_add_dashboard_widget');
 
 function revtrackr_dashboard_widget_content()
 {
-    $md_file_path = plugin_dir_path(__FILE__) . 'updates/Logs.MD';
+    $md_file_path = plugin_dir_path(__FILE__) . 'updates/Logs.md';
 
     if (file_exists($md_file_path)) {
         $md_content = file_get_contents($md_file_path);
