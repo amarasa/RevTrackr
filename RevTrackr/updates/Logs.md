@@ -1,8 +1,8 @@
 ---
 
-# October 24, 2023
+# Your updates Date here
 
--   New product pages modules
--   Site speed optimization
+-   Your updates here
+-   Anything you add in between the two horizontal rules, the first set will display on the WordPress Dashboard
 
 ---
