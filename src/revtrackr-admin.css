@@ -1,0 +1,10 @@
+/* revtrackr-admin.css */
+.toplevel_page_revtrackr ul {
+	list-style-type: square;
+	padding-left: 20px;
+}
+
+#revtrackr_dashboard_widget ul {
+	list-style-type: square !important;
+	padding-left: 20px !important;
+}
